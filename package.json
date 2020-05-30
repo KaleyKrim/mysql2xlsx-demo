@@ -1,0 +1,15 @@
+{
+  "name": "mysql2xlsx",
+  "version": "1.0.0",
+  "description": "demo script to create excel workbook from MySQL data",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "kaley kriminger",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "exceljs": "^3.9.0",
+    "mysql2": "^2.1.0"
+  }
+}
