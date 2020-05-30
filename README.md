@@ -1,7 +1,7 @@
 # mysql2xlsx-demo
 
 - A demo script that reads data from a MySQL database & writes to .xlsx file
-
+- Files will be generated in the `./output` directory. The folder already contains a sample file created with this script.
 
 ## Usage
 
