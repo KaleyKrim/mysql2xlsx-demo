@@ -76,7 +76,7 @@ function getRows(singleSheetData) {
 		const domesticColumns = getColumns(domesticZones);
 		const intlColumns = getColumns(intlZones);
 
-		// loop through data by worksheet, and create xlsx file
+		// loop through data by worksheet, create xlsx file
 		const workbook = new excel.Workbook();
 		for (const singleSheetData of [ domesticStandard, domesticExpedited, domesticNextDay, intlEconomy, intlExpedited ]) {
 			const worksheetName = SHEET_NAMES_BY_SHIPPING_SPEED[singleSheetData[0]["shipping_speed"]];
