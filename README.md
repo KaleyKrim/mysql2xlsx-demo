@@ -27,3 +27,4 @@ node index.js ${clientId}
 
 ## To do:
 - Fix column width in xlsx file (I reached my time limit before I could do so, and they are very narrow.)
+- Allow specified output path
